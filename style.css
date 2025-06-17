@@ -1,0 +1,74 @@
+body {
+    background-image: url(images/fansite-background.jpg);
+    background-size:cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f4f4ce;
+}
+li { 
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change color to black on hover */
+li a:hover { 
+    background-color: #f4f4f4ce;
+    color: black;
+}
+h1 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 18px;
+}
+
+main p {
+    max-width: 600px;
+    text-align: left; 
+}
+#show-logo {
+    display:block;
+    margin: auto;
+    width: 300px;
+}
+footer {
+    background-color: #f4f4f4ce;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.footer{
+    background-color: #f4f4f4ce;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+}
+.footer a {
+    color: #0066cc;
+    text-decoration: none;
+    padding: 6px;
+}
+.footer hr {
+    max-width: 1800px;
+}
+.footer a:hover {
+    color: #333;
+    text-decoration: underline;
+}
